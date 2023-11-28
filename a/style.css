@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+ body {
+  background-color: rgb(205, 233, 233);
+  background-image: url(star.png);
+  background-repeat: repeat-x;
+  background-size: 30px;
+}
+
+div{
+  background-image: url(33.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+height: 500px;
+margin: 45px;
+}
+
+h1{
+  text-align: center;
+margin: 5px;
+border-bottom: 5px solid #ffffff;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'Yuji Syuku', serif;
+}
+
+
