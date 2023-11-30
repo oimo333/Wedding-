@@ -22,6 +22,15 @@ body {
   margin: 35px;
   background-position: center;
 }
+.c {
+  background-image: url(4.jpg);
+  background-repeat: no-repeat;
+  background-size: 800px;
+  height: 500px;
+  margin: 35px;
+  background-position: center;
+}
+
 
 h1 {
   text-align: center;
