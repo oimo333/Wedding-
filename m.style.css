@@ -75,7 +75,7 @@ li {
 }
 
 /* * * * * * * * *
-* header
+*----------------------------------------- header
 * * * * * * * * */
 .header {
   position: relative;
@@ -122,9 +122,34 @@ li {
   font-size: 50px;
 }
 
-
-.logo{
+.logo {
   font-size: 15px;
+}
+
+.main-nav {
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+.main-nav li {
+  margin-left: 36px;
+}
+.main-nav a {
+  color: rgb(12, 12, 118);
+}
+.main-nav a:hover {
+  color: aqua;
+}
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
 }
 
 /* --------------------------ホーム------------------------------- */
@@ -155,7 +180,6 @@ li {
 .button:hover {
   background: coral;
 }
-
 
 .header-menu {
   position: absolute;
@@ -202,32 +226,6 @@ li {
   margin: 0 8px;
   background: #fff;
   vertical-align: middle;
-}
-/* ---------------ヘッダーのメニュー ---------------------------*/
-.main-nav {
-  display: flex;
-  font-size: 1.25rem;
-  text-transform: uppercase;
-  margin-top: 34px;
-  list-style: none;
-}
-.main-nav li {
-  margin-left: 36px;
-}
-.main-nav a {
-  color: rgb(12, 12, 118);
-}
-.main-nav a:hover {
-  color: aqua;
-}
-.page-header {
-  display: flex;
-  justify-content: space-between;
-}
-wrapper {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 4%;
 }
 
 /* * * * * * * * *
