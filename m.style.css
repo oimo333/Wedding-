@@ -124,7 +124,7 @@ li {
 
 
 .logo{
-  font-size: 45px;
+  font-size: 15px;
 }
 
 /* --------------------------ホーム------------------------------- */
@@ -442,13 +442,13 @@ wrapper {
   /* * * * * * * * *
   * header
   * * * * * * * * */
-  .header {
+  /* .header {
     height: 355px;
     padding-top: 0;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       url(img/header.png) 50%;
     background-size: cover;
-  }
+  } */
   .header__nav {
     position: fixed;
     top: 0;
