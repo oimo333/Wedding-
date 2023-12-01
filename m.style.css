@@ -45,7 +45,7 @@ li {
 }
 
 /* * * * * * * * *
-* utility
+* トップ写真の設定と文字の下線とか
 * * * * * * * * */
 .u-content-wrapper {
   max-width: 960px;
@@ -123,7 +123,7 @@ li {
 }
 
 .logo {
-  font-size: 15px;
+  font-size: 30px;
 }
 
 .main-nav {
@@ -229,7 +229,7 @@ wrapper {
 }
 
 /* * * * * * * * *
-* Concept　済み
+* 青い線　装飾部分
 * * * * * * * * */
 .concept {
   width: 100%;
@@ -243,7 +243,7 @@ wrapper {
 }
 
 /* * * * * * * * *
-* Work
+* ４枚の写真
 * * * * * * * * */
 .work {
   width: 100%;
@@ -288,7 +288,7 @@ wrapper {
 }
 
 /* * * * * * * * *
-* Florist
+* 3枚の写真の並びとか
 * * * * * * * * */
 .florist {
   width: 100%;
@@ -320,7 +320,7 @@ wrapper {
 }
 
 /* * * * * * * * *
-* Shop information
+* アフロディテの写真設定
 * * * * * * * * */
 .shopInformation {
   width: 100%;
@@ -347,9 +347,9 @@ wrapper {
 }
 
 /* * * * * * * * *
-* Contact us
+* 削除してもいい？
 * * * * * * * * */
-.contactUs {
+/* .contactUs {
   width: 100%;
   padding: 80px 0;
   background: linear-gradient(
@@ -392,7 +392,7 @@ wrapper {
   border-right: 1px solid #2b2b2b;
   border-bottom: 1px solid #2b2b2b;
   transform: rotate(45deg);
-}
+} */
 
 /* * * * * * * * *
 * footer
@@ -417,6 +417,27 @@ wrapper {
 @media (max-width: 670px) {
   body {
     font-size: 14px;
+    text-align: center;
+  }
+  h1 {
+    color: #033c7e;
+    .page-title {
+      font-size: 2.5rem;
+    }
+
+    /* HEADER */
+    .main-nav {
+      font-size: 1rem;
+      margin-top: 10px;
+    }
+    .main-nav li {
+      margin: 0 20px;
+    }
+
+    /* HOME */
+    .home-content {
+      margin-top: 20%;
+    }
   }
 
   /* * * * * * * * *
@@ -438,29 +459,6 @@ wrapper {
   }
 
   /* * * * * * * * *
-  * header
-  * * * * * * * * */
-  /* .header {
-    height: 355px;
-    padding-top: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url(img/header.png) 50%;
-    background-size: cover;
-  } */
-  .header__nav {
-    position: fixed;
-    top: 0;
-    z-index: 100;
-  }
-  .header__nav__logo {
-    font-size: 24px;
-  }
-  .header__title {
-    padding-top: 120px;
-    font-size: 64px;
-  }
-
-  /* * * * * * * * *
   * Concept
   * * * * * * * * */
   .concept {
@@ -471,7 +469,7 @@ wrapper {
   /* * * * * * * * *
   * Work
   * * * * * * * * */
-  .work {
+  /* .work {
     position: relative;
     padding: 40px 0 24px;
   }
@@ -554,7 +552,7 @@ wrapper {
   .work__image__wedding {
     object-position: 0 60%;
   }
-
+ */
   /* * * * * * * * *
   * Florist
   * * * * * * * * */
