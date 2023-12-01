@@ -417,28 +417,28 @@ wrapper {
 @media (max-width: 670px) {
   body {
     font-size: 14px;
-    text-align: center;
+    /* text-align: center; */
   }
-  h1 {
+  /* h1 {
     color: #033c7e;
     .page-title {
       font-size: 2.5rem;
-    }
+    } */
 
-    /* HEADER */
-    .main-nav {
+  /* HEADER */
+  /* .main-nav {
       font-size: 1rem;
       margin-top: 10px;
     }
     .main-nav li {
       margin: 0 20px;
-    }
+    /} */
 
-    /* HOME */
-    .home-content {
+  /* HOME */
+  /* .home-content {
       margin-top: 20%;
     }
-  }
+  } */
 
   /* * * * * * * * *
   * utility
