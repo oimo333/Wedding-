@@ -414,62 +414,41 @@ wrapper {
 /* * * * * * * * *
 * レスポンシブ対応
 * * * * * * * * */
-@media (max-width: 670px) {
+/* @media (max-width: 670px) {
   body {
     font-size: 14px;
-    /* text-align: center; */
-  }
-  /* h1 {
-    color: #033c7e;
-    .page-title {
-      font-size: 2.5rem;
-    } */
-
-  /* HEADER */
-  /* .main-nav {
-      font-size: 1rem;
-      margin-top: 10px;
-    }
-    .main-nav li {
-      margin: 0 20px;
-    /} */
-
-  /* HOME */
-  /* .home-content {
-      margin-top: 20%;
-    }
   } */
 
-  /* * * * * * * * *
+/* * * * * * * * *
   * utility
   * * * * * * * * */
-  .u-content-wrapper {
-    width: calc(100% - 32px);
-    margin: 0 auto;
-  }
-  .u-heading {
-    font-size: 28px;
-  }
-  .u-text {
-    text-align: left;
-    padding-bottom: 32px;
-  }
-  .u-display__pc {
-    display: none;
-  }
+.u-content-wrapper {
+  width: calc(100% - 32px);
+  margin: 0 auto;
+}
+.u-heading {
+  font-size: 28px;
+}
+.u-text {
+  text-align: left;
+  padding-bottom: 32px;
+}
+.u-display__pc {
+  display: none;
+}
 
-  /* * * * * * * * *
+/* * * * * * * * *
   * Concept
   * * * * * * * * */
-  .concept {
-    padding: 40px 0;
-    background: linear-gradient(#fff 75%, #ededed 25%);
-  }
+.concept {
+  padding: 40px 0;
+  background: linear-gradient(#fff 75%, #ededed 25%);
+}
 
-  /* * * * * * * * *
+/* * * * * * * * *
   * Work
   * * * * * * * * */
-  /* .work {
+/* .work {
     position: relative;
     padding: 40px 0 24px;
   }
@@ -553,98 +532,97 @@ wrapper {
     object-position: 0 60%;
   }
  */
-  /* * * * * * * * *
+/* * * * * * * * *
   * Florist
   * * * * * * * * */
-  .florist {
-    padding: 40px 0;
-    background: #ededed 55%;
-  }
-  .florist__persons__wrapper {
-    overflow-x: auto;
-    overflow-y: visible;
-    -webkit-overflow-scrolling: touch;
-  }
-  .florist__persons__wrapper::-webkit-scrollbar {
-    width: 4px;
-    height: 4px;
-    border-radius: 8px;
-  }
-  .florist__persons__wrapper::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.15);
-    border-radius: 8px;
-  }
-  .florist__persons__wrapper::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-  }
-  .florist__persons {
-    display: inline-flex;
-  }
-  .florist__person {
-    width: 80vw;
-  }
-  .florist__person:not(:last-of-type) {
-    margin-right: 24px;
-  }
-  .florist__person__image {
-    width: 100%;
-    margin-bottom: 0;
-  }
+.florist {
+  padding: 40px 0;
+  background: #ededed 55%;
+}
+.florist__persons__wrapper {
+  overflow-x: auto;
+  overflow-y: visible;
+  -webkit-overflow-scrolling: touch;
+}
+.florist__persons__wrapper::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  border-radius: 8px;
+}
+.florist__persons__wrapper::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+.florist__persons__wrapper::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.florist__persons {
+  display: inline-flex;
+}
+.florist__person {
+  width: 80vw;
+}
+.florist__person:not(:last-of-type) {
+  margin-right: 24px;
+}
+.florist__person__image {
+  width: 100%;
+  margin-bottom: 0;
+}
 
-  /* * * * * * * * *
+/* * * * * * * * *
   * Shop information
   * * * * * * * * */
-  .shopInformation {
-    padding: 0px 0;
-  }
-  .shopInformation__contents {
-    display: block;
-  }
-  .shopInformation__image,
-  .shopInformation__table {
-    width: 100%;
-  }
+.shopInformation {
+  padding: 0px 0;
+}
+.shopInformation__contents {
+  display: block;
+}
+.shopInformation__image,
+.shopInformation__table {
+  width: 100%;
+}
 
-  /*地図*/
-  #location {
-    padding: 4% 0%;
-  }
-  #location .wapper {
-    display: flex;
-    justify-content: space-between;
-  }
-  .location-info {
-    width: 22%;
-  }
-  .location-info p {
-    padding: 12% 10%;
-  }
-  .location-map {
-    width: 100%;
-  }
+/*地図*/
+#location {
+  padding: 4% 0%;
+}
+#location .wapper {
+  display: flex;
+  justify-content: space-between;
+}
+.location-info {
+  width: 22%;
+}
+.location-info p {
+  padding: 12% 10%;
+}
+.location-map {
+  width: 100%;
+}
 
-  /*iframe*/
-  iframe {
-    width: 100%;
-  }
+/*iframe*/
+iframe {
+  width: 100%;
+}
 
-  /*youtube*/
+/*youtube*/
 
-  /* * * * * * * * *
+/* * * * * * * * *
   * Contact us
   * * * * * * * * */
-  .contactUs {
-    padding: 40px 0 64px;
-  }
-  .btn__contact {
-    width: 280px;
-    padding-left: 50px;
-  }
-  .btn__contact::before {
-    left: 45px;
-  }
-  .btn__contact::after {
-    left: 50px;
-  }
+.contactUs {
+  padding: 40px 0 64px;
+}
+.btn__contact {
+  width: 280px;
+  padding-left: 50px;
+}
+.btn__contact::before {
+  left: 45px;
+}
+.btn__contact::after {
+  left: 50px;
 }
