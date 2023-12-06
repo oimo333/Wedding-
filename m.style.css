@@ -93,6 +93,9 @@ li {
   font-family: "Bebas Neue", sans-serif;
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-family: "Rubik Bubbles", cursive;
+  /* p188大きな背景画像の部分 */
+  background-size: cover;
+  background-position: center top;
 }
 
 .header__nav {
@@ -146,7 +149,7 @@ li {
   display: flex;
   justify-content: space-between;
 }
-wrapper {
+.wrapper {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 4%;
@@ -157,9 +160,9 @@ wrapper {
   text-align: center;
   margin-top: 10%;
 }
-.home-content {
-  font-size: 10px;
-  margin: 50px 10px;
+.home-content p {
+  font-size: 1.125rem;
+  margin: 10px 0 42px;
 }
 /* --------------------------見出し----------------------------- */
 .page-title {
@@ -347,9 +350,9 @@ wrapper {
 }
 
 /* * * * * * * * *
-* 削除してもいい？
+* 
 * * * * * * * * */
-.contactUs {
+.contactus {
   width: 100%;
   padding: 80px 0;
   background: linear-gradient(
@@ -606,6 +609,7 @@ wrapper {
   /*iframe*/
   iframe {
     width: 100%;
+    max-width: 100%;
   }
 
   /*youtube*/
